@@ -1,0 +1,408 @@
+{
+    "type": "bundle",
+    "id": "bundle--bd19a1ee-f5a0-4802-89c0-3e12a1b928f9",
+    "objects": [
+        {
+            "modified": "2023-09-30T08:53:01.446Z",
+            "name": "UEFI",
+            "description": "TTPs related to UEFI",
+            "x_mitre_contents": [
+                {
+                    "object_ref": "x-mitre-tactic--ae21a66b-64cd-43c1-83c3-07aed91f07f1",
+                    "object_modified": "2023-09-28T12:51:20.003Z"
+                },
+                {
+                    "object_ref": "x-mitre-tactic--7b439782-5000-46f8-99aa-e0c4333d6b2a",
+                    "object_modified": "2023-09-28T12:58:01.372Z"
+                },
+                {
+                    "object_ref": "x-mitre-tactic--37f96b17-745b-4a30-bfa1-4a0e1c358875",
+                    "object_modified": "2023-09-28T13:00:36.591Z"
+                },
+                {
+                    "object_ref": "x-mitre-tactic--bd4bdb89-2f61-442e-8ee0-0ba7cdad850d",
+                    "object_modified": "2023-09-28T13:02:53.770Z"
+                },
+                {
+                    "object_ref": "x-mitre-tactic--69f3e1cd-1a0b-4300-91dc-9fea512a6dc3",
+                    "object_modified": "2023-09-28T13:05:18.885Z"
+                },
+                {
+                    "object_ref": "x-mitre-tactic--53ff74b8-3736-40df-842e-eddbc930b6fe",
+                    "object_modified": "2023-09-28T13:15:00.170Z"
+                },
+                {
+                    "object_ref": "x-mitre-tactic--f896a34d-3201-4422-be89-e43ea8d746d2",
+                    "object_modified": "2023-09-28T13:37:40.412Z"
+                },
+                {
+                    "object_ref": "x-mitre-tactic--c4913fa7-9449-4175-91d9-915659d8820b",
+                    "object_modified": "2023-09-28T13:39:58.091Z"
+                },
+                {
+                    "object_ref": "x-mitre-tactic--518a9541-e809-411d-817b-e4dd2fc2f32a",
+                    "object_modified": "2023-09-30T08:04:28.645Z"
+                },
+                {
+                    "object_ref": "x-mitre-tactic--e6a8a568-8349-453f-aa2c-1e6829187bb9",
+                    "object_modified": "2023-09-30T08:06:50.617Z"
+                },
+                {
+                    "object_ref": "x-mitre-tactic--9f3b47c4-22e7-4913-830d-71beeb731cd4",
+                    "object_modified": "2023-09-30T08:07:52.627Z"
+                },
+                {
+                    "object_ref": "x-mitre-tactic--95b8e870-794a-4867-a2df-a3017660ace9",
+                    "object_modified": "2023-09-30T08:09:37.864Z"
+                },
+                {
+                    "object_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841",
+                    "object_modified": "2023-09-27T13:42:40.514Z"
+                }
+            ],
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "0.1",
+            "type": "x-mitre-collection",
+            "spec_version": "2.1",
+            "id": "x-mitre-collection--70940591-a69d-4745-b003-dec577e57f31",
+            "created": "2023-09-30T08:48:14.646Z",
+            "created_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841",
+            "revoked": false,
+            "external_references": [],
+            "object_marking_refs": [],
+            "x_mitre_domains": [],
+            "x_mitre_attack_spec_version": "3.1.0",
+            "x_mitre_modified_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841"
+        },
+        {
+            "modified": "2023-09-28T12:51:20.003Z",
+            "name": "Reconnaissance",
+            "description": "The process of gathering information and intelligence about potential cyber threats and adversaries. It involves collecting, analyzing, and interpreting data from various sources to gain insights into the tactics, techniques, and procedures (TTPs) used by threat actors",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [],
+            "x_mitre_version": "1.0",
+            "x_mitre_contributors": [],
+            "x_mitre_shortname": "reconnaissance",
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--ae21a66b-64cd-43c1-83c3-07aed91f07f1",
+            "created": "2023-09-28T12:51:20.003Z",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/UEFI-TA9001",
+                    "external_id": "UEFI-TA9001"
+                }
+            ],
+            "object_marking_refs": [],
+            "x_mitre_attack_spec_version": "3.1.0",
+            "created_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841",
+            "x_mitre_modified_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841"
+        },
+        {
+            "modified": "2023-09-28T12:58:01.372Z",
+            "name": "Resource Development",
+            "description": "The process of acquiring or creating various tools, techniques, knowledge, and infrastructure to facilitate and support malicious activities. ",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [],
+            "x_mitre_version": "1.0",
+            "x_mitre_contributors": [],
+            "x_mitre_shortname": "resource-development",
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--7b439782-5000-46f8-99aa-e0c4333d6b2a",
+            "created": "2023-09-28T12:58:01.372Z",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/UEFI-TA9002",
+                    "external_id": "UEFI-TA9002"
+                }
+            ],
+            "object_marking_refs": [],
+            "x_mitre_attack_spec_version": "3.1.0",
+            "created_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841",
+            "x_mitre_modified_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841"
+        },
+        {
+            "modified": "2023-09-28T13:00:36.591Z",
+            "name": "Delivery",
+            "description": "The stage of a cyber attack where the attacker delivers or introduces malicious code or components into the UEFI firmware or the system's boot process. ",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [],
+            "x_mitre_version": "1.0",
+            "x_mitre_contributors": [],
+            "x_mitre_shortname": "delivery",
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--37f96b17-745b-4a30-bfa1-4a0e1c358875",
+            "created": "2023-09-28T13:00:36.591Z",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/UEFI-TA9003",
+                    "external_id": "UEFI-TA9003"
+                }
+            ],
+            "object_marking_refs": [],
+            "x_mitre_attack_spec_version": "3.1.0",
+            "created_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841",
+            "x_mitre_modified_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841"
+        },
+        {
+            "modified": "2023-09-28T13:02:53.770Z",
+            "name": "Exploitation",
+            "description": "The process of leveraging vulnerabilities or weaknesses in UEFI firmware, UEFI-based systems, or associated components to gain unauthorized access, execute malicious code, or perform other malicious activities. ",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [],
+            "x_mitre_version": "1.0",
+            "x_mitre_contributors": [],
+            "x_mitre_shortname": "exploitation",
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--bd4bdb89-2f61-442e-8ee0-0ba7cdad850d",
+            "created": "2023-09-28T13:02:53.770Z",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/UEFI-TA9004",
+                    "external_id": "UEFI-TA9004"
+                }
+            ],
+            "object_marking_refs": [],
+            "x_mitre_attack_spec_version": "3.1.0",
+            "created_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841",
+            "x_mitre_modified_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841"
+        },
+        {
+            "modified": "2023-09-28T13:05:18.885Z",
+            "name": "Persistence",
+            "description": "The ability of an attacker to maintain their presence or control over a compromised system across reboots or system restarts. It involves establishing a persistent foothold within the UEFI firmware or other system components to ensure that the attacker's malicious activities can continue even after a reboot. Persistence enables the attacker to maintain long-term access, execute code, and potentially evade detection.",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [],
+            "x_mitre_version": "1.0",
+            "x_mitre_contributors": [],
+            "x_mitre_shortname": "persistence",
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--69f3e1cd-1a0b-4300-91dc-9fea512a6dc3",
+            "created": "2023-09-28T13:05:18.885Z",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/UEFI-TA9005",
+                    "external_id": "UEFI-TA9005"
+                }
+            ],
+            "object_marking_refs": [],
+            "x_mitre_attack_spec_version": "3.1.0",
+            "created_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841",
+            "x_mitre_modified_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841"
+        },
+        {
+            "modified": "2023-09-28T13:15:00.170Z",
+            "name": "Defense Evasion",
+            "description": "Methods employed by malicious actors to avoid detection, circumvent security controls, maintain persistence, and evade security measures implemented by the target system's defenders within a compromised UEFI environment. ",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [],
+            "x_mitre_version": "1.0",
+            "x_mitre_contributors": [],
+            "x_mitre_shortname": "defense-evasion",
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--53ff74b8-3736-40df-842e-eddbc930b6fe",
+            "created": "2023-09-28T13:15:00.170Z",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/UEFI-TA9006",
+                    "external_id": "UEFI-TA9006"
+                }
+            ],
+            "object_marking_refs": [],
+            "x_mitre_attack_spec_version": "3.1.0",
+            "created_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841",
+            "x_mitre_modified_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841"
+        },
+        {
+            "modified": "2023-09-28T13:37:40.412Z",
+            "name": "Command and Control",
+            "description": "The infrastructure and communication channels that enable the attacker to remotely manage and control the compromised system or network. It involves establishing a covert communication channel between the attacker and the compromised UEFI firmware or associated components to issue commands, receive instructions, and exfiltrate data",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [],
+            "x_mitre_version": "1.0",
+            "x_mitre_contributors": [],
+            "x_mitre_shortname": "command-and-control",
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--f896a34d-3201-4422-be89-e43ea8d746d2",
+            "created": "2023-09-28T13:37:40.412Z",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/UEFI-TA9007",
+                    "external_id": "UEFI-TA9007"
+                }
+            ],
+            "object_marking_refs": [],
+            "x_mitre_attack_spec_version": "3.1.0",
+            "created_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841",
+            "x_mitre_modified_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841"
+        },
+        {
+            "modified": "2023-09-28T13:39:58.091Z",
+            "name": "Discovery",
+            "description": "The process of gathering information about the target system, its UEFI firmware, hardware components, network environment, and potential vulnerabilities. It involves identifying and probing various elements to gain a comprehensive understanding of the target system's configuration, security posture, and potential attack surface.",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [],
+            "x_mitre_version": "1.0",
+            "x_mitre_contributors": [],
+            "x_mitre_shortname": "discovery",
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--c4913fa7-9449-4175-91d9-915659d8820b",
+            "created": "2023-09-28T13:39:58.091Z",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/UEFI-TA9008",
+                    "external_id": "UEFI-TA9008"
+                }
+            ],
+            "object_marking_refs": [],
+            "x_mitre_attack_spec_version": "3.1.0",
+            "created_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841",
+            "x_mitre_modified_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841"
+        },
+        {
+            "modified": "2023-09-30T08:04:28.645Z",
+            "name": "Privilege Escalation",
+            "description": "The process by which an attacker elevates their level of access or permissions within the compromised UEFI firmware or the associated system. Privilege escalation allows the attacker to gain higher privileges than initially obtained, enabling them to perform unauthorized actions, access sensitive data, or execute malicious code with elevated privileges.",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [],
+            "x_mitre_version": "1.0",
+            "x_mitre_contributors": [],
+            "x_mitre_shortname": "privilege-escalation",
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--518a9541-e809-411d-817b-e4dd2fc2f32a",
+            "created": "2023-09-30T08:04:28.645Z",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/UEFI-TA9009",
+                    "external_id": "UEFI-TA9009"
+                }
+            ],
+            "object_marking_refs": [],
+            "x_mitre_attack_spec_version": "3.1.0",
+            "created_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841",
+            "x_mitre_modified_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841"
+        },
+        {
+            "modified": "2023-09-30T08:06:50.617Z",
+            "name": "Credential Access",
+            "description": "The unauthorized acquisition or retrieval of sensitive credentials stored within the compromised UEFI firmware or associated system components. Credentials can include usernames, passwords, cryptographic keys, or other authentication tokens used to access various resources, such as operating systems, applications, databases, or network services.",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [],
+            "x_mitre_version": "1.0",
+            "x_mitre_contributors": [],
+            "x_mitre_shortname": "credential-access",
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--e6a8a568-8349-453f-aa2c-1e6829187bb9",
+            "created": "2023-09-30T08:06:50.617Z",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/UEFI-TA9010",
+                    "external_id": "UEFI-TA9010"
+                }
+            ],
+            "object_marking_refs": [],
+            "x_mitre_attack_spec_version": "3.1.0",
+            "created_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841",
+            "x_mitre_modified_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841"
+        },
+        {
+            "modified": "2023-09-30T08:07:52.627Z",
+            "name": "Collection",
+            "description": "The process of gathering specific information or data from the compromised UEFI firmware or associated system components. Attackers engage in collection activities to obtain valuable information that can aid them in further stages of their attack or to exfiltrate sensitive data for malicious purposes.",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [],
+            "x_mitre_version": "1.0",
+            "x_mitre_contributors": [],
+            "x_mitre_shortname": "collection",
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--9f3b47c4-22e7-4913-830d-71beeb731cd4",
+            "created": "2023-09-30T08:07:52.627Z",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/UEFI-TA9011",
+                    "external_id": "UEFI-TA9011"
+                }
+            ],
+            "object_marking_refs": [],
+            "x_mitre_attack_spec_version": "3.1.0",
+            "created_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841",
+            "x_mitre_modified_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841"
+        },
+        {
+            "modified": "2023-09-30T08:09:37.864Z",
+            "name": "Exfiltration",
+            "description": "The unauthorized extraction or removal of sensitive data or information from the compromised UEFI firmware or associated system components. Exfiltration is a critical stage in an attack where the attacker transfers valuable data from the target system to an external location under their control. The extracted data can include confidential documents, intellectual property, personally identifiable information (PII), authentication credentials, or any other information that can be exploited for financial gain or other malicious purposes.",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [],
+            "x_mitre_version": "1.0",
+            "x_mitre_contributors": [],
+            "x_mitre_shortname": "exfiltration",
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--95b8e870-794a-4867-a2df-a3017660ace9",
+            "created": "2023-09-30T08:09:37.864Z",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/UEFI-TA9012",
+                    "external_id": "UEFI-TA9012"
+                }
+            ],
+            "object_marking_refs": [],
+            "x_mitre_attack_spec_version": "3.1.0",
+            "created_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841",
+            "x_mitre_modified_by_ref": "identity--f48740a1-1a8e-4932-9b44-da5caf417841"
+        },
+        {
+            "modified": "2023-09-27T13:42:40.514Z",
+            "name": "Ben Gurion University",
+            "description": "Carrying out research in the field of UEFI",
+            "roles": [],
+            "identity_class": "organization",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "0.1",
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--f48740a1-1a8e-4932-9b44-da5caf417841",
+            "created": "2023-09-27T13:22:22.234Z",
+            "revoked": false,
+            "external_references": [],
+            "object_marking_refs": [],
+            "sectors": [],
+            "x_mitre_attack_spec_version": "3.1.0"
+        }
+    ]
+}
